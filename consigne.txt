@@ -1,0 +1,17 @@
+Création d'un site web de présentation de burgers avec mode jour/nuit
+
+Objectif : Créer un site web simple qui affiche une liste de burgers et permet à l'utilisateur de basculer entre un mode jour et un mode nuit.
+
+Fonctionnalités requises
+
+Affichage des burgers (GET) :
+
+Récupérer les données sur les burgers à partir d'une API de manière asynchrone en utilisant async/await.
+Utiliser un bloc try/catch pour gérer les erreurs lors de la requête.
+Afficher les burgers sous forme de cartes avec leur nom, description, prix et image.
+Mode jour/nuit :
+
+Ajouter un bouton dans le header du site pour changer entre le mode jour et le mode nuit.
+Lorsque l'utilisateur clique sur le bouton :
+Le fond du site passe en noir pour le mode nuit et en blanc pour le mode jour.
+Le texte du bouton change en conséquence pour indiquer le mode actuel.

@@ -1,0 +1,21 @@
+Pour recupérer les différents types de produits :
+https://titi.startwin.fr/products/type/burger
+https://titi.startwin.fr/products/type/accompagnement
+https://titi.startwin.fr/products/type/boisson
+https://titi.startwin.fr/products/type/dessert
+
+Recuperer les commandes:
+https://titi.startwin.fr/orders (GET)
+
+Ajouter une commande 
+https://titi.startwin.fr/orders (POST)
+avec en body la reponse de paypal directement sous le nom "details"
+
+Ajouter un produit :
+https://titi.startwin.fr/products (POST)
+avec comme contenu:
+name
+description
+price
+type
+image

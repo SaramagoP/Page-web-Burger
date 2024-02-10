@@ -1,0 +1,17 @@
+.card-img-top {
+    height: 500px; /* Pour s'assurer que l'image est entièrement contenue dans les dimensions spécifiées */
+    object-fit: cover;
+}
+
+.navbar-brand  {
+    font-family: verdana;
+}
+
+.nav-link {
+    font-size: 50px;
+    font-family: verdana;
+}
+
+#mode {
+    font-family: verdana;
+}
